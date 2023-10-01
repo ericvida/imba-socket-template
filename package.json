@@ -1,0 +1,24 @@
+{
+  "name": "Imba+Socket Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.imba",
+  "scripts": {
+    "dev": "ssc build -r",
+    "start": "ssc build -r -o",
+    "build": "ssc build -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-imba": "^0.10.3",
+    "@sveltejs/vite-plugin-svelte": "^2.4.6",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "svelte": "^4.2.1",
+    "imba": "^2.0.0-alpha.231"
+  },
+  "type": "module"
+}
